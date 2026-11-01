@@ -1,0 +1,33 @@
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Next.js
+PP/Frontend/node_modules/
+PP/Frontend/.next/
+PP/Frontend/out/
+*.tsbuildinfo
+
+# Build files
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
