@@ -93,11 +93,7 @@ export default function Home() {
     // ========================================================
 
     try {
-      const apiUrl =
-        process.env.NEXT_PUBLIC_API_URL ||
-        "http://localhost:8000";
-
-      const result = await fetch(`${apiUrl.replace(/\/+$/, "")}/chat`, {
+      const result = await fetch("/api/chat", {
         method: "POST",
 
         headers: {
